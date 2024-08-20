@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(0.5,0.5,0.5, 0.5) ;
+}
+
+.pbody>.header{
+    background-image: url(m6.jpeg);
+}
+.pbody>.header{
+    display: flex;
+    width: 100%;
+}
+
+.pbody>.header>.logo{
+   width: 15%;
+   align-self:last baseline;
+}
+.pbody>.header>.logo>img{
+    width: 100%;
+    border-radius: 10px;
+    
+
+}
+
+.pbody>.header>.searchbar{
+    width: 20%;
+    padding-right: 20px;
+    padding-left: 10px;
+    align-self:last baseline;
+}
+
+.pbody>.header>.searchbar>.src{
+     width: 100%;
+
+}
+
+.pbody>.header>.searchbar>.src>input{
+    width: 100px;
+    border-radius: 5px;
+}
+
+.pbody>.header>.searchbar>.src>button{
+    background-color:red;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.pbody>.header>.nav{
+    width: 55%;
+    display: flex;
+   
+    align-self:last baseline;
+}
+
+.pbody>.header>.nav>.c1{
+   width: 20%;
+   text-align: center;
+}
+
+
+
+
+.pbody>.header>.nav>.c1>a{
+    text-decoration: none;
+    color: orangered;
+    width: 100%;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.pbody>.header>.profile{
+    width: 10%;
+    align-self:last baseline;
+}
+
+.pbody>.header>.profile>a>img{
+    width:30%;
+    border-radius: 20px;
+    
+}
+
+
+
+.pbody>.hero{
+    height: 60%;
+    background-color: black;
+    color:red;
+
+}
+
+.pbody>.hero{
+    text-align: center;
+   font-family: cursive;
+   text-decoration: underline;
+}
+
+.pbody>.hero>.popular{
+    width: 100%;
+}
+
+.pbody>.hero>.popular>a>img{
+     width: 40rem;
+}
+
+
+
+
+
+.pbody>.footer{
+    color:black;
+    text-align: center;
+   font-family: cursive;
+
+
+}
+
+.pbody>.footer>.links>a{
+      
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    margin: 20px;
+    
+}
+
+.pbody>.footer>.social>a>img{
+    width: 5%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
